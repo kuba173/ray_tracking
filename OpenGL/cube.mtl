@@ -1,0 +1,17 @@
+# Simple MTL File Example
+
+newmtl BasicMaterial
+Ka 0.2 0.2 0.2  # Ambient color
+Kd 1.0 0.0 0.0  # Diffuse color (Red)
+Ks 0.5 0.5 0.5  # Specular color
+Ns 50           # Specular exponent (shininess)
+d 1.0            # Dissolve (transparency; 1.0 is opaque)
+illum 2          # Illumination model (2 is for specular highlights)
+
+newmtl AnotherMaterial
+Ka 0.2 0.2 0.2
+Kd 0.0 1.0 0.0  # Diffuse color (Green)
+Ks 0.5 0.5 0.5
+Ns 50
+d 1.0
+illum 2
